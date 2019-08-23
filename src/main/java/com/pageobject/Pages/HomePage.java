@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage extends AbstractPage{
 
+    // Instances of WebDriver and WebDriverWait
     private WebDriver driver;
     private WebDriverWait wait;
 

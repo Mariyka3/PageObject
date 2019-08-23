@@ -7,12 +7,22 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class AbstractPage {
+abstract public class AbstractPage {
 
+    // Instance of WebDriver
     private WebDriver driver;
+    // Instance of Wait
     private WebDriverWait wait;
+
+
     @FindBy(xpath = ".//a[@title='My Store']")
     protected WebElement logo;
+    //
+    @FindBy(xpath = ".//a[@class='login']")
+    private WebElement signInLink;
+
+    @FindBy(xpath = ".//a[@class='logout']")
+    private WebElement signOutLink;
 
     /**
      * Constructor
@@ -25,4 +35,23 @@ public class AbstractPage {
         PageFactory.initElements(driver, this);
         wait.until(ExpectedConditions.visibilityOf(logo));
     }
+
+    /**
+     * wait and click on signIn link
+     * @return LoginPage
+     */
+    public LoginPage clickSignInLink(){
+        wait.until(ExpectedConditions.elementToBeClickable(signInLink)).click();
+        return new LoginPage(driver);
+    }
+
+    /**
+     * wait and click on signOut link
+     * @return LoginPage
+     */
+    public LoginPage clickSignOutLink(){
+        wait.until(ExpectedConditions.elementToBeClickable(signOutLink)).click();
+        return new LoginPage(driver);
+    }
+
 }
