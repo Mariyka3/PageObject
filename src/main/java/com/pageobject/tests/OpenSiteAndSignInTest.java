@@ -1,8 +1,8 @@
-package com.pageobject.Tests;
+package com.pageobject.tests;
 
-import com.pageobject.Pages.HomePage;
-import com.pageobject.Pages.LoginPage;
-import com.pageobject.Pages.MyAccountPage;
+import com.pageobject.pages.HomePage;
+import com.pageobject.pages.LoginPage;
+import com.pageobject.pages.MyAccountPage;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -10,8 +10,6 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class OpenSiteAndSignInTest {
 
@@ -52,9 +50,9 @@ public class OpenSiteAndSignInTest {
         //Verify name
         Assert.assertEquals(myAccountPage.name, myAccountPage.returnName());
         //Click on SignOut link
-        LoginPage loginPage1 = myAccountPage.clickSignOutLink();
+        loginPage = myAccountPage.clickSignOutLink();
         //Verify return to login page
-        Assert.assertTrue(loginPage1.signInButton.isDisplayed());
+        Assert.assertTrue(loginPage.signInButton.isDisplayed());
 
     }
     /**

@@ -1,4 +1,4 @@
-package com.pageobject.Pages;
+package com.pageobject.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;

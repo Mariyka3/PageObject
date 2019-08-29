@@ -1,4 +1,4 @@
-package com.pageobject.Pages;
+package com.pageobject.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,13 +13,13 @@ public class LoginPage extends AbstractPage{
     private WebDriver driver;
     private WebDriverWait wait;
 
-    @FindBy(id = "email")
+    @FindBy(xpath = ".//input[@id='email']")
     private WebElement emailField;
 
-    @FindBy(id = "passwd")
+    @FindBy(xpath = ".//input[@id='passwd']")
     private WebElement passwordField;
 
-    @FindBy(id = "SubmitLogin")
+    @FindBy(xpath = ".//button[@id ='SubmitLogin']")
     public WebElement signInButton;
 
     /**
