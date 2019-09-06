@@ -1,17 +1,12 @@
 package com.pageobject.pages;
 
-import org.openqa.selenium.WebDriver;
+import com.pageobject.base.BaseTest;
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class LoginPage extends AbstractPage{
-
-    // Instances of WebDriver and WebDriverWait
-    private WebDriver driver;
-    private WebDriverWait wait;
 
     @FindBy(xpath = ".//input[@id='email']")
     private WebElement emailField;
@@ -25,14 +20,11 @@ public class LoginPage extends AbstractPage{
     /**
      * Constructor
      *
-     * @param driver
+     * @param
      */
-    public LoginPage(WebDriver driver) {
-        super(driver);
-        this.driver = driver;
-        wait = new WebDriverWait(driver, 10);
-        PageFactory.initElements(driver, this);
-        wait.until(ExpectedConditions.visibilityOf(logo));
+    public LoginPage(BaseTest testClass) {
+        super(testClass);
+        testClass.waitTillElementIsVisible(logo);
     }
 
     /**
@@ -40,10 +32,20 @@ public class LoginPage extends AbstractPage{
      * @return MyAccountPage
      */
     public MyAccountPage login(){
-        wait.until(ExpectedConditions.visibilityOf(emailField)).sendKeys("mariia.dibrivnaia@gmail.com");
-        wait.until((ExpectedConditions.visibilityOf(passwordField))).sendKeys("123qwe");
-        wait.until(ExpectedConditions.elementToBeClickable(signInButton)).click();
-        return new MyAccountPage(driver);
+        testClass.waitTillElementIsVisible(emailField);
+        emailField.sendKeys("mariia.dibrivnaia@gmail.com");
+        testClass.waitTillElementIsVisible(passwordField);
+        passwordField.sendKeys("123qwe");
+        testClass.waitTillElementIsVisible(signInButton);
+        signInButton.click();
+        return new MyAccountPage(testClass);
+    }
+
+    /**
+     * verify SignIn button is displayed on the page
+     */
+    public void verifySignBtnIsDisplayed(){
+        Assert.assertTrue(signInButton.isDisplayed());
     }
 
 

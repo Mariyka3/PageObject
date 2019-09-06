@@ -1,23 +1,19 @@
 package com.pageobject.pages;
 
-import org.openqa.selenium.WebDriver;
+import com.pageobject.base.BaseTest;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 abstract public class AbstractPage {
 
-    // Instance of WebDriver
-    private WebDriver driver;
-    // Instance of Wait
-    private WebDriverWait wait;
-
+    // Instances of BaseTest
+    protected BaseTest testClass;
 
     @FindBy(xpath = ".//a[@title='My Store']")
     protected WebElement logo;
-    //
+
     @FindBy(xpath = ".//a[@class='login']")
     private WebElement signInLink;
 
@@ -27,13 +23,12 @@ abstract public class AbstractPage {
     /**
      * Constructor
      *
-     * @param driver
+     * @param
      */
-    public AbstractPage(WebDriver driver) {
-        this.driver = driver;
-        wait = new WebDriverWait(driver, 10);
-        PageFactory.initElements(driver, this);
-        wait.until(ExpectedConditions.visibilityOf(logo));
+    public AbstractPage(BaseTest testClass) {
+        this.testClass = testClass;
+        PageFactory.initElements(testClass.getDriver(), this);
+        testClass.waitTillElementIsVisible(logo);
     }
 
     /**
@@ -41,8 +36,9 @@ abstract public class AbstractPage {
      * @return LoginPage
      */
     public LoginPage clickSignInLink(){
-        wait.until(ExpectedConditions.elementToBeClickable(signInLink)).click();
-        return new LoginPage(driver);
+        testClass.waitTillElementIsVisible(signInLink);
+        signInLink.click();
+        return new LoginPage(testClass);
     }
 
     /**
@@ -50,8 +46,9 @@ abstract public class AbstractPage {
      * @return LoginPage
      */
     public LoginPage clickSignOutLink(){
-        wait.until(ExpectedConditions.elementToBeClickable(signOutLink)).click();
-        return new LoginPage(driver);
+        testClass.waitTillElementIsVisible(signOutLink);
+        signOutLink.click();
+        return new LoginPage(testClass);
     }
 
 }

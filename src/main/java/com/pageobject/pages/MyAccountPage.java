@@ -1,16 +1,13 @@
 package com.pageobject.pages;
 
-import org.openqa.selenium.WebDriver;
+import com.pageobject.base.BaseTest;
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class MyAccountPage extends AbstractPage{
 
-    private WebDriver driver;
-    private WebDriverWait wait;
     public String name = "Mary Dibr";
 
     @FindBy(xpath = ".//a[@class='account']/span")
@@ -19,14 +16,11 @@ public class MyAccountPage extends AbstractPage{
     /**
      * Constructor
      *
-     * @param driver
+     * @param
      */
-    public MyAccountPage(WebDriver driver) {
-        super(driver);
-        this.driver = driver;
-        wait = new WebDriverWait(driver, 10);
-        PageFactory.initElements(driver, this);
-        wait.until(ExpectedConditions.visibilityOf(logo));
+    public MyAccountPage(BaseTest testClass) {
+        super(testClass);
+        testClass.waitTillElementIsVisible(logo);
     }
 
     /**
@@ -34,7 +28,12 @@ public class MyAccountPage extends AbstractPage{
      * @return username
      */
     public String returnName(){
-        return wait.until(ExpectedConditions.visibilityOf(accountNameLink)).getText();
+        testClass.waitTillElementIsVisible(accountNameLink);
+        return accountNameLink.getText();
+    }
+
+    public void verifyName() {
+        Assert.assertEquals(name, returnName());
     }
 
 }
