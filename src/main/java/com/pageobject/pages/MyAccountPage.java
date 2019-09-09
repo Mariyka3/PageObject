@@ -13,8 +13,11 @@ public class MyAccountPage extends AbstractPage{
     @FindBy(xpath = ".//a[@class='account']/span")
     private WebElement accountNameLink;
 
+    @FindBy(xpath = ".//ul[contains(@class,'submenu-container')]/preceding-sibling::a[text()='Dresses']")
+    private WebElement dressesButton;
+
     /**
-     * Constructor
+     * Constructor /a[text()='Dresses']   .//ul[contains(Class,'menu-content')]
      *
      * @param
      */
@@ -36,4 +39,13 @@ public class MyAccountPage extends AbstractPage{
         Assert.assertEquals(name, returnName());
     }
 
+    /**
+     * Click on the dresses menu
+     * @return DressesPage
+     */
+    public DressesPage clickDressesItem(){
+        testClass.waitTillElementIsVisible(dressesButton);
+        dressesButton.click();
+        return new DressesPage(testClass);
+    }
 }
