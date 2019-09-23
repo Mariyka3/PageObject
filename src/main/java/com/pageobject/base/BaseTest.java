@@ -1,6 +1,7 @@
 package com.pageobject.base;
 
 import com.pageobject.pages.HomePage;
+import com.pageobject.utils.YamlParser;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -41,15 +42,15 @@ public class BaseTest {
      *
      * @return HomePage
      */
-    public HomePage openSite() {
-        driver.get("http://automationpractice.com/index.php");
+    protected HomePage openSite() {
+        driver.get(YamlParser.getYamlData().getUrl());
         return new HomePage(this);
     }
 
     /**
      * Close site with driver.quit()
      */
-    public void closeSite() {
+    protected void closeSite() {
         driver.quit();
     }
 

@@ -32,6 +32,13 @@ public class OpenSiteAndSignInTest extends BaseTest {
         closeSite();
     }
 
+
+    /**
+     * Open site
+     * sign in
+     * Click on Dresses > Summer Dresses
+     * Compare goods quantity on the page
+     */
     @Test
     public void testVerifyGoodsQuantityTest(){
         //Initialize home page
@@ -46,6 +53,8 @@ public class OpenSiteAndSignInTest extends BaseTest {
         SummerDressesPage summerDressesPage = dressesPage.clickSummerDressesLink();
         //compare specified quantity with actual products quantity quantity
         summerDressesPage.verifyProductsQuantity();
+        //Close site
+        closeSite();
     }
 
 

@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    сompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'junit', name: 'junit', version: '4.12'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
     compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.3.1'
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.8'

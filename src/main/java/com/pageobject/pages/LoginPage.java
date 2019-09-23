@@ -1,6 +1,7 @@
 package com.pageobject.pages;
 
 import com.pageobject.base.BaseTest;
+import com.pageobject.utils.YamlParser;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,14 +16,14 @@ public class LoginPage extends AbstractPage{
     private WebElement passwordField;
 
     @FindBy(xpath = ".//button[@id ='SubmitLogin']")
-    public WebElement signInButton;
+    private WebElement signInButton;
 
     /**
      * Constructor
      *
      * @param
      */
-    public LoginPage(BaseTest testClass) {
+    LoginPage(BaseTest testClass) {
         super(testClass);
         testClass.waitTillElementIsVisible(logo);
     }
@@ -33,9 +34,9 @@ public class LoginPage extends AbstractPage{
      */
     public MyAccountPage login(){
         testClass.waitTillElementIsVisible(emailField);
-        emailField.sendKeys("mariia.dibrivnaia@gmail.com");
+        emailField.sendKeys(YamlParser.getYamlData().getEmail());
         testClass.waitTillElementIsVisible(passwordField);
-        passwordField.sendKeys("123qwe");
+        passwordField.sendKeys(YamlParser.getYamlData().getPassword());
         testClass.waitTillElementIsVisible(signInButton);
         signInButton.click();
         return new MyAccountPage(testClass);
