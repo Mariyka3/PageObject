@@ -4,10 +4,13 @@ import com.pageobject.base.BaseTest;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class DressesPage extends AbstractPage {
+public class MenuItemPage extends AbstractPage {
 
     @FindBy (xpath = ".//div[@class = 'subcategory-image']/a[@title = 'Summer Dresses']")
     private WebElement summerDressesLink;
+
+    @FindBy (xpath = ".//div[@class = 'product-container']")
+    private WebElement productLink;
 
 
     /**
@@ -15,7 +18,7 @@ public class DressesPage extends AbstractPage {
      *
      * @param testClass
      */
-    public DressesPage(BaseTest testClass) {
+    public MenuItemPage(BaseTest testClass) {
         super(testClass);
         testClass.waitTillElementIsVisible(logo);
     }
@@ -28,5 +31,11 @@ public class DressesPage extends AbstractPage {
         testClass.waitTillElementIsVisible(summerDressesLink);
         summerDressesLink.click();
         return new SummerDressesPage(testClass);
+    }
+
+    public ProductPage clickOnProduct(){
+        testClass.waitTillElementIsVisible(productLink);
+        productLink.click();
+        return new ProductPage(testClass);
     }
 }
