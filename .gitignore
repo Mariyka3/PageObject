@@ -1,2 +1,8 @@
 *.xml
 .idea
+.gradle
+settings.gradle
+gradlew.bat
+gradlew
+out/
+out/production/classes/com/pageobject/Pages/DressesPage.class
