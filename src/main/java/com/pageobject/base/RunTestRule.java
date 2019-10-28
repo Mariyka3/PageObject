@@ -32,7 +32,7 @@ public class RunTestRule extends TestWatcher {
      */
     @Override
     protected void finished(Description description) {
-        testClass.getDriver().quit();
+        testClass.closeSite();
     }
 
     /**
@@ -83,6 +83,6 @@ public class RunTestRule extends TestWatcher {
         testClass.error(e.getMessage());
 
         // Driver quits on fail
-        testClass.getDriver().quit();
+        testClass.closeSite();
     }
 }

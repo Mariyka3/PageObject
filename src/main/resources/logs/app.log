@@ -95,3 +95,360 @@
 2019-44-11 11:44:15.963 [main] INFO   - Added product to cart
 2019-44-11 11:44:19.256 [main] INFO   - Clicked on product to checkout button, moved to checkout page
 2019-44-11 11:44:19.551 [main] INFO   - $18.51
+2019-02-25 16:02:58.299 [main] INFO   - Opened site
+2019-03-25 16:03:00.332 [main] INFO   - Clicked on SignIn link
+2019-03-25 16:03:02.150 [main] INFO   - Login
+2019-03-25 16:03:04.176 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-03-25 16:03:06.305 [main] INFO   - Opened product page
+2019-03-25 16:03:06.399 [main] INFO   - Added product to cart
+2019-03-25 16:03:08.383 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-05-25 16:05:58.669 [main] INFO   - Opened site
+2019-06-25 16:06:00.776 [main] INFO   - Clicked on SignIn link
+2019-06-25 16:06:03.098 [main] INFO   - Login
+2019-06-25 16:06:04.919 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-06-25 16:06:08.526 [main] INFO   - Opened product page
+2019-06-25 16:06:08.643 [main] INFO   - Added product to cart
+2019-06-25 16:06:16.136 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-11-25 16:11:46.007 [main] INFO   - Opened site
+2019-11-25 16:11:47.847 [main] INFO   - Clicked on SignIn link
+2019-11-25 16:11:49.590 [main] INFO   - Login
+2019-11-25 16:11:51.508 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-11-25 16:11:53.561 [main] INFO   - Opened product page
+2019-11-25 16:11:53.672 [main] INFO   - Added product to cart
+2019-11-25 16:11:57.874 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-13-25 16:13:49.875 [main] INFO   - Opened site
+2019-13-25 16:13:51.648 [main] INFO   - Clicked on SignIn link
+2019-13-25 16:13:53.431 [main] INFO   - Login
+2019-13-25 16:13:55.358 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-13-25 16:13:56.956 [main] INFO   - Opened product page
+2019-13-25 16:13:57.065 [main] INFO   - Added product to cart
+2019-13-25 16:13:58.887 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-17-25 16:17:05.339 [main] INFO   - Opened site
+2019-17-25 16:17:07.011 [main] INFO   - Clicked on SignIn link
+2019-17-25 16:17:08.835 [main] INFO   - Login
+2019-17-25 16:17:10.833 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-17-25 16:17:12.450 [main] INFO   - Opened product page
+2019-17-25 16:17:12.565 [main] INFO   - Added product to cart
+2019-17-25 16:17:14.466 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-21-25 16:21:32.320 [main] INFO   - Opened site
+2019-21-25 16:21:34.073 [main] INFO   - Clicked on SignIn link
+2019-21-25 16:21:35.905 [main] INFO   - Login
+2019-21-25 16:21:37.967 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-21-25 16:21:40.020 [main] INFO   - Opened product page
+2019-21-25 16:21:40.196 [main] INFO   - Added product to cart
+2019-21-25 16:21:42.510 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-28-25 16:28:34.058 [main] INFO   - Opened site
+2019-28-25 16:28:35.580 [main] INFO   - Clicked on SignIn link
+2019-28-25 16:28:37.358 [main] INFO   - Login
+2019-28-25 16:28:39.230 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-28-25 16:28:40.889 [main] INFO   - Opened product page
+2019-28-25 16:28:40.973 [main] INFO   - Added product to cart
+2019-28-25 16:28:43.406 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-35-25 16:35:20.505 [main] INFO   - Opened site
+2019-35-25 16:35:22.073 [main] INFO   - Clicked on SignIn link
+2019-35-25 16:35:23.732 [main] INFO   - Login
+2019-35-25 16:35:25.444 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-35-25 16:35:27.267 [main] INFO   - Opened product page
+2019-35-25 16:35:27.362 [main] INFO   - Added product to cart
+2019-35-25 16:35:29.812 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-09-25 17:09:26.499 [main] INFO   - Opened site
+2019-09-25 17:09:28.288 [main] INFO   - Clicked on SignIn link
+2019-09-25 17:09:30.179 [main] INFO   - Login
+2019-09-25 17:09:31.971 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-09-25 17:09:33.684 [main] INFO   - Opened product page
+2019-09-25 17:09:33.806 [main] INFO   - Added product to cart
+2019-09-25 17:09:35.759 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-12-25 17:12:15.120 [main] INFO   - Opened site
+2019-12-25 17:12:16.810 [main] INFO   - Clicked on SignIn link
+2019-12-25 17:12:18.513 [main] INFO   - Login
+2019-12-25 17:12:21.217 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-12-25 17:12:23.032 [main] INFO   - Opened product page
+2019-12-25 17:12:23.131 [main] INFO   - Added product to cart
+2019-12-25 17:12:25.112 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-20-25 17:20:38.559 [main] INFO   - Opened site
+2019-20-25 17:20:40.637 [main] INFO   - Clicked on SignIn link
+2019-20-25 17:20:42.383 [main] INFO   - Login
+2019-20-25 17:20:44.202 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-20-25 17:20:45.823 [main] INFO   - Opened product page
+2019-20-25 17:20:45.918 [main] INFO   - Added product to cart
+2019-20-25 17:20:47.760 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-23-25 17:23:57.187 [main] INFO   - Opened site
+2019-23-25 17:23:59.076 [main] INFO   - Clicked on SignIn link
+2019-24-25 17:24:01.226 [main] INFO   - Login
+2019-24-25 17:24:03.198 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-24-25 17:24:05.055 [main] INFO   - Opened product page
+2019-24-25 17:24:05.157 [main] INFO   - Added product to cart
+2019-24-25 17:24:07.114 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-24-25 17:24:08.487 [main] INFO   - Increased product quantity and verify total price
+2019-24-25 17:24:08.593 [main] INFO   - deleted product from basket
+2019-38-28 10:38:38.353 [main] INFO   - Opened site
+2019-38-28 10:38:40.329 [main] INFO   - Clicked on SignIn link
+2019-38-28 10:38:42.331 [main] INFO   - Login
+2019-38-28 10:38:44.259 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-38-28 10:38:45.849 [main] INFO   - Opened product page
+2019-38-28 10:38:45.972 [main] INFO   - Added product to cart
+2019-38-28 10:38:48.493 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-38-28 10:38:49.465 [main] INFO   - Increased product quantity and verify total price
+2019-38-28 10:38:49.578 [main] INFO   - deleted product from basket
+2019-40-28 10:40:33.412 [main] INFO   - Opened site
+2019-40-28 10:40:35.202 [main] INFO   - Clicked on SignIn link
+2019-40-28 10:40:37.068 [main] INFO   - Login
+2019-40-28 10:40:40.048 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-40-28 10:40:41.925 [main] INFO   - Opened product page
+2019-40-28 10:40:42.040 [main] INFO   - Added product to cart
+2019-40-28 10:40:44.599 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-43-28 10:43:16.552 [main] INFO   - Increased product quantity and verify total price
+2019-43-28 10:43:16.654 [main] INFO   - deleted product from basket
+2019-56-28 10:56:32.584 [main] INFO   - Opened site
+2019-56-28 10:56:35.275 [main] INFO   - Clicked on SignIn link
+2019-56-28 10:56:38.949 [main] INFO   - Login
+2019-56-28 10:56:41.813 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-56-28 10:56:44.182 [main] INFO   - Opened product page
+2019-56-28 10:56:44.422 [main] INFO   - Added product to cart
+2019-56-28 10:56:47.216 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-56-28 10:56:49.051 [main] INFO   - Increased product quantity and verify total price
+2019-56-28 10:56:49.242 [main] INFO   - deleted product from basket
+2019-01-28 11:01:39.465 [main] INFO   - Opened site
+2019-01-28 11:01:41.128 [main] INFO   - Clicked on SignIn link
+2019-01-28 11:01:42.912 [main] INFO   - Login
+2019-01-28 11:01:44.835 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-01-28 11:01:47.217 [main] INFO   - Opened product page
+2019-01-28 11:01:47.408 [main] INFO   - Added product to cart
+2019-01-28 11:01:49.996 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-01-28 11:01:51.607 [main] INFO   - Increased product quantity and verify total price
+2019-01-28 11:01:51.728 [main] INFO   - deleted product from basket
+2019-04-28 11:04:59.464 [main] INFO   - Opened site
+2019-05-28 11:05:03.029 [main] INFO   - Clicked on SignIn link
+2019-05-28 11:05:05.302 [main] INFO   - Login
+2019-05-28 11:05:07.524 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-05-28 11:05:09.643 [main] INFO   - Opened product page
+2019-05-28 11:05:09.849 [main] INFO   - Added product to cart
+2019-05-28 11:05:12.515 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-05-28 11:05:14.048 [main] INFO   - Increased product quantity and verify total price
+2019-05-28 11:05:14.159 [main] INFO   - deleted product from basket
+2019-08-28 11:08:18.760 [main] INFO   - Opened site
+2019-08-28 11:08:20.362 [main] INFO   - Clicked on SignIn link
+2019-08-28 11:08:23.138 [main] INFO   - Login
+2019-08-28 11:08:25.021 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-08-28 11:08:28.378 [main] INFO   - Opened product page
+2019-08-28 11:08:28.556 [main] INFO   - Added product to cart
+2019-08-28 11:08:30.781 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-08-28 11:08:31.850 [main] INFO   - Increased product quantity and verify total price
+2019-08-28 11:08:31.992 [main] INFO   - deleted product from basket
+2019-12-28 11:12:14.817 [main] INFO   - Opened site
+2019-12-28 11:12:16.510 [main] INFO   - Clicked on SignIn link
+2019-12-28 11:12:18.413 [main] INFO   - Login
+2019-12-28 11:12:20.314 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-12-28 11:12:22.472 [main] INFO   - Opened product page
+2019-12-28 11:12:22.678 [main] INFO   - Added product to cart
+2019-12-28 11:12:24.892 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-12-28 11:12:25.984 [main] INFO   - Increased product quantity and verify total price
+2019-12-28 11:12:26.113 [main] INFO   - deleted product from basket
+2019-20-28 11:20:23.788 [main] INFO   - Opened site
+2019-20-28 11:20:25.750 [main] INFO   - Clicked on SignIn link
+2019-20-28 11:20:28.049 [main] INFO   - Login
+2019-20-28 11:20:30.046 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-20-28 11:20:31.894 [main] INFO   - Opened product page
+2019-20-28 11:20:32.036 [main] INFO   - Added product to cart
+2019-20-28 11:20:35.967 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-20-28 11:20:37.531 [main] INFO   - Increased product quantity and verify total price
+2019-20-28 11:20:37.640 [main] INFO   - deleted product from basket
+2019-23-28 11:23:44.997 [main] INFO   - Opened site
+2019-23-28 11:23:46.947 [main] INFO   - Clicked on SignIn link
+2019-23-28 11:23:48.847 [main] INFO   - Login
+2019-23-28 11:23:53.154 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-23-28 11:23:55.427 [main] INFO   - Opened product page
+2019-23-28 11:23:55.525 [main] INFO   - Added product to cart
+2019-23-28 11:23:57.506 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-23-28 11:23:59.377 [main] INFO   - Increased product quantity and verify total price
+2019-23-28 11:23:59.462 [main] INFO   - deleted product from basket
+2019-38-28 11:38:10.221 [main] INFO   - Opened site
+2019-38-28 11:38:12.232 [main] INFO   - Clicked on SignIn link
+2019-38-28 11:38:14.644 [main] INFO   - Login
+2019-38-28 11:38:16.827 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-38-28 11:38:18.520 [main] INFO   - Opened product page
+2019-38-28 11:38:18.634 [main] INFO   - Added product to cart
+2019-38-28 11:38:20.515 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-38-28 11:38:21.349 [main] INFO   - Increased product quantity and verify total price
+2019-38-28 11:38:21.446 [main] INFO   - deleted product from basket
+2019-08-28 12:08:33.864 [main] INFO   - Opened site
+2019-08-28 12:08:35.518 [main] INFO   - Clicked on SignIn link
+2019-08-28 12:08:37.613 [main] INFO   - Login
+2019-08-28 12:08:39.452 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-08-28 12:08:41.007 [main] INFO   - Opened product page
+2019-08-28 12:08:41.120 [main] INFO   - Added product to cart
+2019-08-28 12:08:42.929 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-08-28 12:08:43.772 [main] INFO   - Increased product quantity and verify total price
+2019-08-28 12:08:43.865 [main] INFO   - deleted product from basket
+2019-18-28 12:18:54.829 [main] INFO   - Opened site
+2019-18-28 12:18:56.952 [main] INFO   - Clicked on SignIn link
+2019-18-28 12:18:58.643 [main] INFO   - Login
+2019-19-28 12:19:00.608 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-19-28 12:19:03.046 [main] INFO   - Opened product page
+2019-19-28 12:19:03.162 [main] INFO   - Added product to cart
+2019-19-28 12:19:07.741 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-19-28 12:19:09.064 [main] INFO   - Increased product quantity and verify total price
+2019-19-28 12:19:09.149 [main] INFO   - deleted product from basket
+2019-21-28 12:21:11.594 [main] INFO   - Opened site
+2019-21-28 12:21:13.338 [main] INFO   - Clicked on SignIn link
+2019-21-28 12:21:15.193 [main] INFO   - Login
+2019-21-28 12:21:18.206 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-21-28 12:21:20.007 [main] INFO   - Opened product page
+2019-21-28 12:21:20.119 [main] INFO   - Added product to cart
+2019-21-28 12:21:22.788 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-21-28 12:21:24.192 [main] INFO   - Increased product quantity and verify total price
+2019-21-28 12:21:24.282 [main] INFO   - deleted product from basket
+2019-58-28 13:58:48.874 [main] INFO   - Opened site
+2019-58-28 13:58:50.477 [main] INFO   - Clicked on SignIn link
+2019-58-28 13:58:52.666 [main] INFO   - Login
+2019-58-28 13:58:54.413 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-58-28 13:58:56.174 [main] INFO   - Opened product page
+2019-58-28 13:58:56.747 [main] ERROR  - expected:< [Women Tops T-shirts ]Faded Short Sleeve T...> but was:< [T-shirts > Women>Tops>T-shirts>]Faded Short Sleeve T...>
+2019-01-28 14:01:31.850 [main] INFO   - Opened site
+2019-01-28 14:01:33.508 [main] INFO   - Clicked on SignIn link
+2019-01-28 14:01:35.603 [main] INFO   - Login
+2019-01-28 14:01:37.740 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-01-28 14:01:39.514 [main] INFO   - Opened product page
+2019-04-28 14:04:18.657 [main] INFO   - Added product to cart
+2019-04-28 14:04:21.780 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-04-28 14:04:23.129 [main] INFO   - Increased product quantity and verify total price
+2019-04-28 14:04:23.220 [main] INFO   - deleted product from basket
+2019-04-28 14:04:58.693 [main] INFO   - Opened site
+2019-05-28 14:05:00.423 [main] INFO   - Clicked on SignIn link
+2019-05-28 14:05:03.384 [main] INFO   - Login
+2019-05-28 14:05:05.412 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-05-28 14:05:07.805 [main] INFO   - Opened product page
+2019-06-28 14:06:56.849 [main] ERROR  - expected:<[ T-shirts ]> Women>Tops>T-shirt...> but was:<[]> Women>Tops>T-shirt...>
+2019-09-28 14:09:58.311 [main] INFO   - Opened site
+2019-10-28 14:10:00.399 [main] INFO   - Clicked on SignIn link
+2019-10-28 14:10:02.432 [main] INFO   - Login
+2019-10-28 14:10:04.103 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-10-28 14:10:05.954 [main] INFO   - Opened product page
+2019-10-28 14:10:06.113 [main] INFO   - Added product to cart
+2019-10-28 14:10:08.936 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-10-28 14:10:10.299 [main] INFO   - Increased product quantity and verify total price
+2019-10-28 14:10:10.407 [main] INFO   - deleted product from basket
+2019-14-28 14:14:55.100 [main] INFO   - Opened site
+2019-14-28 14:14:56.759 [main] INFO   - Clicked on SignIn link
+2019-14-28 14:14:58.576 [main] INFO   - Login
+2019-15-28 14:15:00.958 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-15-28 14:15:02.565 [main] INFO   - Opened product page
+2019-15-28 14:15:02.715 [main] INFO   - Added product to cart
+2019-15-28 14:15:04.777 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-15-28 14:15:05.592 [main] INFO   - Increased product quantity and verify total price
+2019-15-28 14:15:05.689 [main] INFO   - deleted product from basket
+2019-15-28 14:15:07.890 [main] ERROR  - stale element reference: element is not attached to the page document
+  (Session info: chrome=78.0.3904.70)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ODS1-LHP-F76039', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\MARIIA~1.DIB\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54936}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aef3dcc8f33c6f15e02830eb26882170
+2019-33-28 14:33:54.071 [main] INFO   - Opened site
+2019-33-28 14:33:55.878 [main] INFO   - Clicked on SignIn link
+2019-33-28 14:33:58.585 [main] INFO   - Login
+2019-34-28 14:34:00.887 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-34-28 14:34:02.549 [main] INFO   - Opened product page
+2019-34-28 14:34:02.689 [main] INFO   - Added product to cart
+2019-34-28 14:34:05.085 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-34-28 14:34:06.036 [main] INFO   - Increased product quantity and verify total price
+2019-34-28 14:34:06.146 [main] INFO   - deleted product from basket
+2019-34-28 14:34:16.584 [main] ERROR  - Expected condition failed: waiting for text ('Your shopping cart is empty.') to be the value of element located by By.xpath: .//p[text() = 'Your shopping cart is empty.'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ODS1-LHP-F76039', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\MARIIA~1.DIB\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d791a4b700dd924ee3e4d9f88336c95d
+2019-41-28 14:41:00.184 [main] INFO   - Opened site
+2019-41-28 14:41:02.002 [main] INFO   - Clicked on SignIn link
+2019-41-28 14:41:03.982 [main] INFO   - Login
+2019-41-28 14:41:05.766 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-41-28 14:41:07.442 [main] INFO   - Opened product page
+2019-41-28 14:41:07.596 [main] INFO   - Added product to cart
+2019-41-28 14:41:10.107 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-41-28 14:41:11.476 [main] INFO   - Increased product quantity and verify total price
+2019-41-28 14:41:11.573 [main] INFO   - deleted product from basket
+2019-41-28 14:41:12.057 [main] ERROR  - expected:<[Your shopping cart is empty.]> but was:<[]>
+2019-45-28 14:45:53.437 [main] INFO   - Opened site
+2019-45-28 14:45:55.413 [main] INFO   - Clicked on SignIn link
+2019-45-28 14:45:57.309 [main] INFO   - Login
+2019-46-28 14:46:00.259 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-46-28 14:46:02.670 [main] INFO   - Opened product page
+2019-46-28 14:46:02.820 [main] INFO   - Added product to cart
+2019-46-28 14:46:04.697 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-46-28 14:46:06.048 [main] INFO   - Increased product quantity and verify total price
+2019-46-28 14:46:06.137 [main] INFO   - deleted product from basket
+2019-46-28 14:46:06.640 [main] ERROR  - expected:<[Your shopping cart is empty.]> but was:<[]>
+2019-01-28 15:01:49.736 [main] ERROR  - null
+2019-04-28 15:04:58.767 [main] ERROR  - null
+2019-09-28 15:09:33.901 [main] ERROR  - null
+2019-11-28 15:11:06.588 [main] INFO   - Opened site
+2019-11-28 15:11:08.368 [main] INFO   - Clicked on SignIn link
+2019-11-28 15:11:10.107 [main] INFO   - Login
+2019-11-28 15:11:11.854 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-11-28 15:11:13.528 [main] INFO   - Opened product page
+2019-11-28 15:11:13.722 [main] INFO   - Added product to cart
+2019-11-28 15:11:15.609 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-11-28 15:11:16.465 [main] INFO   - Increased product quantity and verify total price
+2019-11-28 15:11:16.566 [main] INFO   - deleted product from basket
+2019-11-28 15:11:27.184 [main] ERROR  - Expected condition failed: waiting for alert to be present (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ODS1-LHP-F76039', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\MARIIA~1.DIB\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59889}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ee5e0a6414addc638ce9b20ef11a5d6a
+2019-12-28 15:12:59.894 [main] INFO   - Opened site
+2019-13-28 15:13:01.942 [main] INFO   - Clicked on SignIn link
+2019-13-28 15:13:03.760 [main] INFO   - Login
+2019-13-28 15:13:05.956 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-13-28 15:13:07.635 [main] INFO   - Opened product page
+2019-13-28 15:13:07.787 [main] INFO   - Added product to cart
+2019-13-28 15:13:09.867 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-13-28 15:13:10.689 [main] INFO   - Increased product quantity and verify total price
+2019-13-28 15:13:10.786 [main] INFO   - deleted product from basket
+2019-14-28 15:14:01.468 [main] ERROR  - Expected condition failed: waiting for alert to be present (tried for 50 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ODS1-LHP-F76039', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\MARIIA~1.DIB\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60078}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b04efcfe6c7874087277edf70657a775
+2019-15-28 15:15:19.651 [main] INFO   - Opened site
+2019-15-28 15:15:21.359 [main] INFO   - Clicked on SignIn link
+2019-15-28 15:15:23.096 [main] INFO   - Login
+2019-15-28 15:15:24.721 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-15-28 15:15:26.373 [main] INFO   - Opened product page
+2019-15-28 15:15:26.511 [main] INFO   - Added product to cart
+2019-15-28 15:15:28.923 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-15-28 15:15:30.302 [main] INFO   - Increased product quantity and verify total price
+2019-15-28 15:15:30.402 [main] INFO   - deleted product from basket
+2019-23-28 15:23:51.604 [main] ERROR  - Expected condition failed: waiting for alert to be present (tried for 500 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ODS1-LHP-F76039', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\MARIIA~1.DIB\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6e1bdc821c2314b378b2b2a6b6d337f2
+2019-27-28 15:27:52.060 [main] INFO   - Opened site
+2019-27-28 15:27:54.251 [main] INFO   - Clicked on SignIn link
+2019-27-28 15:27:56.061 [main] INFO   - Login
+2019-27-28 15:27:58.507 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-28-28 15:28:00.199 [main] INFO   - Opened product page
+2019-28-28 15:28:00.420 [main] INFO   - Added product to cart
+2019-28-28 15:28:02.542 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-28-28 15:28:03.431 [main] INFO   - Increased product quantity and verify total price
+2019-28-28 15:28:03.544 [main] INFO   - deleted product from basket
+2019-28-28 15:28:54.260 [main] ERROR  - Expected condition failed: waiting for alert to be present (tried for 50 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ODS1-LHP-F76039', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.70, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\MARIIA~1.DIB\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:61369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 794392a0c34840d0a44cac30e7a537d8
+2019-30-28 15:30:29.996 [main] INFO   - Opened site
+2019-30-28 15:30:32.344 [main] INFO   - Clicked on SignIn link
+2019-30-28 15:30:34.279 [main] INFO   - Login
+2019-30-28 15:30:36.148 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2019-30-28 15:30:38.245 [main] INFO   - Opened product page
+2019-30-28 15:30:38.391 [main] INFO   - Added product to cart
+2019-30-28 15:30:40.385 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2019-30-28 15:30:41.243 [main] INFO   - Increased product quantity and verify total price
+2019-30-28 15:30:41.337 [main] INFO   - deleted product from basket

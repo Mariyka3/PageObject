@@ -1,12 +1,12 @@
 package com.pageobject.pages;
 
 import com.pageobject.base.BaseTest;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-import static com.sun.webkit.perf.WCFontPerfLogger.log;
 
 public class CheckoutPage extends AbstractPage {
 
@@ -19,8 +19,14 @@ public class CheckoutPage extends AbstractPage {
     @FindBy(xpath = ".//a[@title='Delete']")
     private WebElement deleteButton;
 
-    @FindBy (xpath = ".//p[text() = 'Your shopping cart is empty.']")
-    private List<WebElement> emptyShoppingCartAlert;
+   // @FindBy(xpath = ".//p[text() = 'Your shopping cart is empty.']")
+   // private List<WebElement> emptyShoppingCartAlert;
+
+    @FindBy(xpath = ".//p[text() = 'Your shopping cart is empty.']")
+    private WebElement emptyShoppingCartAlert;
+
+    @FindBy(xpath = "//input[@class = 'cart_quantity_input form-control grey']")
+    private WebElement productQuantity;
 
 
     /**
@@ -33,35 +39,52 @@ public class CheckoutPage extends AbstractPage {
         testClass.waitTillElementIsVisible(logo);
     }
 
+    /**
+     * Clicking on the plus button for increasing product quantity
+     */
     public void plusOneProduct() {
         testClass.waitTillElementIsVisible(plusButton);
+        testClass.waitTillElementIsVisible(productQuantity);
+
+        String str = productQuantity.getAttribute("value");
+        int quantity = Integer.parseInt(str);
         plusButton.click();
+        testClass.waitTillTextToBePresentInElementValue("//td[@class='cart_quantity text-center']/input[@type='hidden']",
+                String.valueOf(quantity + 1));
     }
 
 
+    /**
+     * @return first product price
+     */
     public String getFirstPrice() {
         testClass.waitTillElementIsVisible(totalPrice);
         return totalPrice.getText();
     }
 
+    /**
+     * @return total price
+     */
     public String getTotalPrice() {
-        testClass.log(totalPrice.getText());
-        testClass.waitTillTextToBePresentInElementValue(".//span[@id='total_price']", "$35.02");
-        return totalPrice.getText();
+        testClass.waitTillElementIsVisible(totalPrice);
+        return testClass.getDriver().findElement(By.xpath("//span[@id='total_price']")).getText();
     }
-    public void deleteProductFromBasket(){
+
+    /**
+     * Deleting product from basket
+     */
+    public void deleteProductFromBasket() {
         testClass.waitTillElementIsVisible(deleteButton);
         deleteButton.click();
+        testClass.waitForPageIsLoad();
     }
 
-    public Boolean isAlert(){
-        return !emptyShoppingCartAlert.isEmpty();
+    /**
+     * @return alert message
+     */
+    public String getAlertMessage() {
+        testClass.waitTillElementIsVisible(emptyShoppingCartAlert);
+        return emptyShoppingCartAlert.getText();
     }
-
-    public String getAlertMessage(){
-        testClass.waitTillElementIsVisible(emptyShoppingCartAlert.get(0));
-        return emptyShoppingCartAlert.get(0).getText();
-    }
-
 
 }
