@@ -33,9 +33,24 @@ public class MenuItemPage extends AbstractPage {
         return new SummerDressesPage(testClass);
     }
 
+    /**
+     * Open product page
+     * @return ProductPage
+     */
     public ProductPage clickOnProduct(){
-        testClass.waitTillElementIsVisible(productLink);
-        productLink.click();
+        testClass.click(productLink);
         return new ProductPage(testClass);
     }
+
+    /**
+     * Open product page in new tab
+     * @return ProductPage
+     */
+    public ProductPage openProductInNewTab(){
+        testClass.waitTillElementIsVisible(productLink);
+        testClass.openInNewTab(productLink);
+        return new ProductPage(testClass);
+    }
+
+
 }

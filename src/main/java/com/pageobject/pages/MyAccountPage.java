@@ -39,6 +39,9 @@ public class MyAccountPage extends AbstractPage{
         return accountNameLink.getText();
     }
 
+    /**
+     * Verify name
+     */
     public void verifyName() {
         Assert.assertEquals(NAME, returnName());
     }
@@ -61,4 +64,6 @@ public class MyAccountPage extends AbstractPage{
         tShirtsButton.click();
         return new MenuItemPage(testClass);
     }
+
+
 }

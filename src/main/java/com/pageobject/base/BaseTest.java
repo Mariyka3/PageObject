@@ -3,21 +3,20 @@ package com.pageobject.base;
 import com.pageobject.pages.HomePage;
 import com.pageobject.utils.YamlParser;
 import org.junit.Rule;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import javax.swing.plaf.PanelUI;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.concurrent.TimeUnit;
+import java.util.Set;
+
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.textToBePresentInElementValue;
 
@@ -81,10 +80,7 @@ public class BaseTest {
      */
     public void waitTillElementIsVisible(WebElement element) {
         wait.until(ExpectedConditions.visibilityOf(element));
-    }
-
-    public void waitTillAlertIsPresent(){
-        wait.until(ExpectedConditions.alertIsPresent());
+       // wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
     /**
@@ -92,7 +88,7 @@ public class BaseTest {
      *
      * @param message
      */
-    public void log(String message) {
+    protected void log(String message) {
         logger.info(message);
     }
 
@@ -101,7 +97,7 @@ public class BaseTest {
      *
      * @param error
      */
-    public void error(String error) {
+    void error(String error) {
         logger.error(error);
     }
 
@@ -110,7 +106,7 @@ public class BaseTest {
      *
      * @return current date and time
      */
-    public String getDateTime() {
+    String getDateTime() {
         return new SimpleDateFormat("YYYY-MM-dd_HH-mm-ss").format(Calendar.getInstance().getTime());
     }
 
@@ -135,4 +131,64 @@ public class BaseTest {
         js.executeScript("return document.readyState").toString().equals("complete");
     }
 
+    /**
+     * hover on element
+     * @param element
+     */
+    public void moveToElement(WebElement element){
+        Actions actions = new Actions(driver);
+        waitTillElementIsVisible(element);
+        actions.moveToElement(element).build().perform();
+    }
+
+    /**
+     * Open link in new tab
+     * @param element
+     */
+    public void openInNewTab(WebElement element){
+        Actions actions = new Actions(driver);
+        actions.keyDown(Keys.CONTROL).moveToElement(element).click().perform();
+    }
+
+    /**
+     * Switch to specified window
+     * @param window
+     */
+    protected void switchToHandle(String window){
+        for (String windowID : driver.getWindowHandles()){
+            if(driver.switchTo().window(windowID).getTitle().equals(window)) {
+                log("switch to " + window + " handle");
+                waitForPageIsLoad();
+                break;
+            }else {
+                log("Window Title is " + driver.getTitle());
+            }
+        }
+    }
+
+    /**
+     * Wait and click on element
+     * @param element
+     */
+    public void click(WebElement element){
+        waitTillElementIsVisible(element);
+        element.click();
+    }
+
+    /**
+     * Close current tab
+     */
+    protected void closeCurrentTab(){
+        getDriver().close();
+        switchToHandle("Evening Dresses - My Store");
+    }
+
+
+    /**
+     * Display cookie's names
+     */
+    protected void getCookies(){
+        Set <Cookie> cookies = getDriver().manage().getCookies();
+        cookies.forEach((n) -> log(n.getName()));
+    }
 }

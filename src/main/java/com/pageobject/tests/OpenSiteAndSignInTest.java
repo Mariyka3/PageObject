@@ -145,5 +145,76 @@ public class OpenSiteAndSignInTest extends BaseTest {
         Assert.assertEquals("Your shopping cart is empty.", checkoutPage.getAlertMessage());
     }
 
+    /**
+     * Login
+     * Open product in new tab
+     * Chang parameters
+     * Add to basket
+     * Verify product parameters in basket
+     * Remove product from basket
+     * Verify empty cart
+     * Close tab
+     * Display cookies
+     */
+    @Test
+    public void testDisplayCart(){
+        //Initialize home page
+        HomePage homePage = openSite();
+        log("Opened site");
 
+        //Click on SignIn link
+        LoginPage loginPage = homePage.clickSignInLink();
+        log("Clicked on SignIn link");
+
+        //Login
+        MyAccountPage myAccountPage = loginPage.login();
+        log("Login");
+
+        //Hover on Women category
+        myAccountPage.moveToWomenItem();
+        log("hovered on Women category");
+
+        // Open Evening Dresses link
+        MenuItemPage menuItemPage = myAccountPage.clickOnEveningDressesLink();
+        log("EveningDressesLink is opened");
+
+        // Open product in another tab
+        ProductPage productPage = menuItemPage.openProductInNewTab();
+        switchToHandle("Printed Dress - My Store");
+        log("Product page is opened in new tab");
+
+        // Choose parameters for product
+        productPage.choosePinkColor();
+        productPage.chooseSize("L");
+        log("The parameters for product are chosen");
+
+        //Add product to cart
+        productPage.addToCart();
+        log("Added product to cart");
+
+        // Continue shopping
+        productPage.continueShopping();
+
+        // Hover mouse on the cart
+        productPage.moveToCart();
+
+        //Check product parameters
+        Assert.assertEquals("Pink, L", productPage.getProductDetailsText());
+        log("product parameters are verified");
+
+        //Remove product from cart
+        productPage.removeProductFromCart();
+        log("product is removed from cart");
+
+        //Verify cart is empty
+        Assert.assertTrue(productPage.isCartEmpty());
+        log("Verified that cart is empty");
+
+        //close current tab and return to main
+        closeCurrentTab();
+        log("Current tab is closed, focus returned on main window");
+
+        //Display cookies
+        getCookies();
+    }
 }
