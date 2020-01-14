@@ -25,11 +25,8 @@ abstract public class AbstractPage {
     @FindBy(xpath = ".//a[@title='Women']")
     private WebElement womenItem;
 
-    @FindBy(xpath = ".//li[@class = 'sfHoverForce']/descendant::a[@title='Evening Dresses']")
-    private WebElement eveningDressesItem;
-
     @FindBy(xpath = ".//a[@title='Evening Dresses']")
-    private WebElement eveningDressesItem1;
+    private WebElement eveningDressesItem;
 
     @FindBy(xpath = ".//a[@title = 'View my shopping cart']")
     private WebElement cart;
@@ -37,7 +34,6 @@ abstract public class AbstractPage {
     @FindBy(xpath = "//div[@class = 'product-atributes']/a[@title='Printed Dress']")
     private WebElement productDetails;
 
-  //  @FindBy(xpath = ".//a[@title = 'remove this product from my cart']")
     @FindBy(xpath = "//span[@class ='remove_link']")
     private WebElement removeProductFromCart;
 
@@ -57,7 +53,7 @@ abstract public class AbstractPage {
     }
 
     /**
-     * wait and click on signIn link
+     * wait and waitTillElementIsVisibleAndClick on signIn link
      * @return LoginPage
      */
     public LoginPage clickSignInLink(){
@@ -67,7 +63,7 @@ abstract public class AbstractPage {
     }
 
     /**
-     * wait and click on signOut link
+     * wait and waitTillElementIsVisibleAndClick on signOut link
      * @return LoginPage
      */
     public LoginPage clickSignOutLink(){
@@ -89,7 +85,7 @@ abstract public class AbstractPage {
      * @return MenuItemPage
      */
     public MenuItemPage clickOnEveningDressesLink(){
-        testClass.click(eveningDressesItem1);
+        testClass.waitTillElementIsVisibleAndClick(eveningDressesItem);
         return new MenuItemPage(testClass);
     }
 
@@ -113,7 +109,7 @@ abstract public class AbstractPage {
      * Remove product from cart
      */
     public void removeProductFromCart(){
-        testClass.click(removeProductFromCart);
+        testClass.waitTillElementIsVisibleAndClick(removeProductFromCart);
     }
 
     /**
@@ -124,10 +120,5 @@ abstract public class AbstractPage {
         testClass.waitForPageIsLoad();
         return cartEmpty.size() != 0;
     }
-
-
-
-
-
 
 }

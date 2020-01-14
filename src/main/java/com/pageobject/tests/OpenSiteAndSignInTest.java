@@ -71,11 +71,11 @@ public class OpenSiteAndSignInTest extends BaseTest {
         MyAccountPage myAccountPage = loginPage.login();
         log("Login");
 
-        //click on Dresses menu
+        //waitTillElementIsVisibleAndClick on Dresses menu
         MenuItemPage menuItemPage = myAccountPage.clickDressesItem();
         log("Clicked on Dresses menu");
 
-        //click on Summer dresses link
+        //waitTillElementIsVisibleAndClick on Summer dresses link
         SummerDressesPage summerDressesPage = menuItemPage.clickSummerDressesLink();
         log("Clicked on Summer dresses link");
 

@@ -38,7 +38,7 @@ public class MenuItemPage extends AbstractPage {
      * @return ProductPage
      */
     public ProductPage clickOnProduct(){
-        testClass.click(productLink);
+        testClass.waitTillElementIsVisibleAndClick(productLink);
         return new ProductPage(testClass);
     }
 
@@ -51,6 +51,5 @@ public class MenuItemPage extends AbstractPage {
         testClass.openInNewTab(productLink);
         return new ProductPage(testClass);
     }
-
 
 }

@@ -5,9 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
-import javax.xml.xpath.XPath;
-import java.util.List;
-
 public class ProductPage extends AbstractPage {
 
     @FindBy(xpath = ".//span[text() = 'Add to cart']")
@@ -28,7 +25,6 @@ public class ProductPage extends AbstractPage {
     @FindBy(xpath = "//span[@title = 'Continue shopping']" )
     private WebElement continueShoppingButton;
 
-
     /**
      * Constructor
      *
@@ -43,7 +39,7 @@ public class ProductPage extends AbstractPage {
      * Click on the Add to cart button
      */
     public void addToCart() {
-        testClass.click(addToCartButton);
+        testClass.waitTillElementIsVisibleAndClick(addToCartButton);
     }
 
     /**
@@ -52,7 +48,7 @@ public class ProductPage extends AbstractPage {
      * @return CheckoutPage
      */
     public CheckoutPage proceedToCheckout() {
-        testClass.click(proceedToCheckout);
+        testClass.waitTillElementIsVisibleAndClick(proceedToCheckout);
         return new CheckoutPage(testClass);
     }
 
@@ -94,7 +90,7 @@ public class ProductPage extends AbstractPage {
      * Click on the Continue shopping Button
      */
     public void continueShopping() {
-        testClass.click(continueShoppingButton);
+        testClass.waitTillElementIsVisibleAndClick(continueShoppingButton);
     }
 
 }

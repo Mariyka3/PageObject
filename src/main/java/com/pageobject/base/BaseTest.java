@@ -15,6 +15,7 @@ import org.apache.logging.log4j.Logger;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Collections;
 import java.util.Set;
 
 
@@ -41,10 +42,11 @@ public class BaseTest {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("disable-infobars");
+        options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
+        options.setExperimentalOption("useAutomationExtension", false);
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
-        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        wait = new WebDriverWait(driver, 50);
+        wait = new WebDriverWait(driver, 20);
     }
 
     /**
@@ -80,7 +82,6 @@ public class BaseTest {
      */
     public void waitTillElementIsVisible(WebElement element) {
         wait.until(ExpectedConditions.visibilityOf(element));
-       // wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
     /**
@@ -167,10 +168,10 @@ public class BaseTest {
     }
 
     /**
-     * Wait and click on element
+     * Wait and waitTillElementIsVisibleAndClick on element
      * @param element
      */
-    public void click(WebElement element){
+    public void waitTillElementIsVisibleAndClick(WebElement element){
         waitTillElementIsVisible(element);
         element.click();
     }

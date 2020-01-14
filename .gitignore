@@ -1,6 +1,7 @@
 *.xml
 .idea
 .gradle
+gradle
 settings.gradle
 gradlew.bat
 gradlew

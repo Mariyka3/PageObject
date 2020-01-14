@@ -5,9 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import java.util.List;
-
-
 public class CheckoutPage extends AbstractPage {
 
     @FindBy(xpath = ".//a[@title = 'Add']")
@@ -18,9 +15,6 @@ public class CheckoutPage extends AbstractPage {
 
     @FindBy(xpath = ".//a[@title='Delete']")
     private WebElement deleteButton;
-
-   // @FindBy(xpath = ".//p[text() = 'Your shopping cart is empty.']")
-   // private List<WebElement> emptyShoppingCartAlert;
 
     @FindBy(xpath = ".//p[text() = 'Your shopping cart is empty.']")
     private WebElement emptyShoppingCartAlert;
