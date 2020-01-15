@@ -774,3 +774,110 @@ Session ID: d98076fbefbed067d235c51c0a9c7894
 2020-03-08 17:03:35.862 [main] INFO   - switch to Evening Dresses - My Store handle
 2020-03-08 17:03:40.308 [main] INFO   - Current tab is closed, focus returned on main window
 2020-03-08 17:03:44.343 [main] INFO   - PrestaShop-a30a9934ef476d11b6cc3c983616e364
+2020-49-14 12:49:16.153 [main] INFO   - Opened site
+2020-49-14 12:49:19.869 [main] INFO   - Clicked on SignIn link
+2020-49-14 12:49:22.392 [main] INFO   - Login
+2020-49-14 12:49:22.603 [main] INFO   - hovered on Women category
+2020-49-14 12:49:25.271 [main] INFO   - EveningDressesLink is opened
+2020-49-14 12:49:25.676 [main] INFO   - Window Title is Evening Dresses - My Store
+2020-49-14 12:49:27.074 [main] INFO   - switch to Printed Dress - My Store handle
+2020-49-14 12:49:27.085 [main] INFO   - Product page is opened in new tab
+2020-49-14 12:49:27.629 [main] INFO   - The parameters for product are chosen
+2020-49-14 12:49:27.780 [main] INFO   - Added product to cart
+2020-49-14 12:49:29.337 [main] INFO   - product parameters are verified
+2020-49-14 12:49:29.455 [main] INFO   - product is removed from cart
+2020-49-14 12:49:29.486 [main] INFO   - Verified that cart is empty
+2020-49-14 12:49:29.569 [main] INFO   - switch to Evening Dresses - My Store handle
+2020-49-14 12:49:29.581 [main] INFO   - Current tab is closed, focus returned on main window
+2020-49-14 12:49:29.595 [main] INFO   - PrestaShop-a30a9934ef476d11b6cc3c983616e364
+2020-11-14 13:11:11.749 [main] INFO   - Opened site
+2020-11-14 13:11:13.630 [main] INFO   - Clicked on SignIn link
+2020-11-14 13:11:16.367 [main] INFO   - Login
+2020-11-14 13:11:23.165 [main] INFO   - Clicked on Dresses menu
+2020-11-14 13:11:25.200 [main] INFO   - Clicked on Summer dresses link
+2020-11-14 13:11:25.255 [main] INFO   - Compared specified quantity with actual products quantity quantity
+2020-11-14 13:11:26.494 [main] INFO   - Closed site
+2020-12-14 13:12:26.399 [main] INFO   - Opened site
+2020-12-14 13:12:28.354 [main] INFO   - Clicked on SignIn link
+2020-12-14 13:12:31.544 [main] INFO   - Login
+2020-12-14 13:12:34.648 [main] INFO   - Clicked on Dresses menu
+2020-12-14 13:12:36.844 [main] INFO   - Clicked on Summer dresses link
+2020-30-14 13:30:02.362 [main] INFO   - Compared specified quantity with actual products quantity quantity
+2020-30-14 13:30:22.309 [main] INFO   - Opened site
+2020-30-14 13:30:24.333 [main] INFO   - Clicked on SignIn link
+2020-30-14 13:30:26.429 [main] INFO   - Login
+2020-30-14 13:30:32.892 [main] INFO   - Clicked on Dresses menu
+2020-30-14 13:30:35.248 [main] INFO   - Clicked on Summer dresses link
+2020-30-14 13:30:35.300 [main] INFO   - Compared specified quantity with actual products quantity quantity
+2020-33-14 13:33:41.401 [main] INFO   - Opened site
+2020-33-14 13:33:43.718 [main] INFO   - Clicked on SignIn link
+2020-33-14 13:33:45.878 [main] INFO   - Login
+2020-33-14 13:33:48.206 [main] INFO   - Clicked on Dresses menu
+2020-33-14 13:33:50.311 [main] INFO   - Clicked on Summer dresses link
+2020-33-14 13:33:50.374 [main] INFO   - Compared specified quantity with actual products quantity quantity
+2020-34-14 13:34:00.679 [main] INFO   - Opened site
+2020-34-14 13:34:02.757 [main] INFO   - Clicked on SignIn link
+2020-34-14 13:34:05.356 [main] INFO   - Login
+2020-34-14 13:34:07.710 [main] INFO   - Clicked on TShirts Item and move to TSirts page
+2020-34-14 13:34:09.441 [main] INFO   - Opened product page
+2020-34-14 13:34:09.738 [main] INFO   - Added product to cart
+2020-34-14 13:34:12.283 [main] INFO   - Clicked on product to checkout button, moved to checkout page
+2020-34-14 13:34:13.793 [main] INFO   - Increased product quantity and verify total price
+2020-34-14 13:34:13.933 [main] INFO   - deleted product from basket
+2020-34-14 13:34:25.881 [main] INFO   - Opened site
+2020-34-14 13:34:27.606 [main] INFO   - Clicked on SignIn link
+2020-34-14 13:34:29.669 [main] INFO   - Login
+2020-34-14 13:34:29.776 [main] INFO   - Verified name
+2020-34-14 13:34:31.581 [main] INFO   - Clicked on SignOut link
+2020-34-14 13:34:31.613 [main] INFO   - Verified return to login page
+2020-34-14 13:34:43.757 [main] INFO   - Opened site
+2020-34-14 13:34:46.369 [main] INFO   - Clicked on SignIn link
+2020-34-14 13:34:48.681 [main] INFO   - Login
+2020-34-14 13:34:48.877 [main] INFO   - hovered on Women category
+2020-34-14 13:34:51.406 [main] INFO   - EveningDressesLink is opened
+2020-34-14 13:34:51.777 [main] INFO   - Window Title is Evening Dresses - My Store
+2020-34-14 13:34:53.256 [main] INFO   - switch to Printed Dress - My Store handle
+2020-34-14 13:34:53.265 [main] INFO   - Product page is opened in new tab
+2020-34-14 13:34:53.838 [main] INFO   - The parameters for product are chosen
+2020-34-14 13:34:53.992 [main] INFO   - Added product to cart
+2020-34-14 13:34:55.549 [main] INFO   - product parameters are verified
+2020-34-14 13:34:55.670 [main] INFO   - product is removed from cart
+2020-34-14 13:34:55.693 [main] INFO   - Verified that cart is empty
+2020-34-14 13:34:55.771 [main] INFO   - switch to Evening Dresses - My Store handle
+2020-34-14 13:34:55.784 [main] INFO   - Current tab is closed, focus returned on main window
+2020-34-14 13:34:55.802 [main] INFO   - PrestaShop-a30a9934ef476d11b6cc3c983616e364
+2020-34-15 10:34:42.923 [main] INFO   - Opened site
+2020-34-15 10:34:44.687 [main] INFO   - Clicked on SignIn link
+2020-34-15 10:34:46.683 [main] INFO   - Login
+2020-34-15 10:34:46.960 [main] INFO   - hovered on Women category
+2020-34-15 10:34:48.939 [main] INFO   - EveningDressesLink is opened
+2020-34-15 10:34:49.469 [main] INFO   - Product page is opened in new tab
+2020-34-15 10:34:51.461 [main] INFO   - The parameters for product are chosen
+2020-34-15 10:34:51.624 [main] INFO   - Added product to cart
+2020-34-15 10:34:53.685 [main] INFO   - product parameters are verified
+2020-34-15 10:34:53.819 [main] INFO   - product is removed from cart
+2020-34-15 10:34:53.845 [main] INFO   - Verified that cart is empty
+2020-43-15 10:43:09.667 [main] INFO   - Opened site
+2020-43-15 10:43:11.973 [main] INFO   - Clicked on SignIn link
+2020-43-15 10:43:14.141 [main] INFO   - Login
+2020-43-15 10:43:14.359 [main] INFO   - hovered on Women category
+2020-43-15 10:43:16.891 [main] INFO   - EveningDressesLink is opened
+2020-43-15 10:43:17.320 [main] INFO   - Product page is opened in new tab
+2020-43-15 10:43:19.710 [main] INFO   - The parameters for product are chosen
+2020-43-15 10:43:19.871 [main] INFO   - Added product to cart
+2020-43-15 10:43:21.414 [main] INFO   - product parameters are verified
+2020-43-15 10:43:21.527 [main] INFO   - product is removed from cart
+2020-43-15 10:43:21.552 [main] INFO   - Verified that cart is empty
+2020-44-15 10:44:14.505 [main] INFO   - Opened site
+2020-44-15 10:44:16.295 [main] INFO   - Clicked on SignIn link
+2020-44-15 10:44:18.493 [main] INFO   - Login
+2020-44-15 10:44:18.688 [main] INFO   - hovered on Women category
+2020-44-15 10:44:20.771 [main] INFO   - EveningDressesLink is opened
+2020-44-15 10:44:21.281 [main] INFO   - Product page is opened in new tab
+2020-44-15 10:44:23.327 [main] INFO   - The parameters for product are chosen
+2020-44-15 10:44:23.482 [main] INFO   - Added product to cart
+2020-44-15 10:44:29.824 [main] INFO   - product parameters are verified
+2020-44-15 10:44:29.928 [main] INFO   - product is removed from cart
+2020-44-15 10:44:29.952 [main] INFO   - Verified that cart is empty
+2020-44-15 10:44:30.014 [main] INFO   - Current tab is closed, focus returned on main window
+2020-44-15 10:44:30.038 [main] INFO   - PrestaShop-a30a9934ef476d11b6cc3c983616e364

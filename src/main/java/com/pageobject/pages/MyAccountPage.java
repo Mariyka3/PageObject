@@ -48,21 +48,21 @@ public class MyAccountPage extends AbstractPage{
 
     /**
      * Click on the dresses menu
-     * @return MenuItemPage
+     * @return CategoriesPage
      */
-    public MenuItemPage clickDressesItem(){
+    public CategoriesPage clickDressesItem(){
         testClass.waitTillElementIsVisible(dressesButton);
         dressesButton.click();
-        return new MenuItemPage(testClass);
+        return new CategoriesPage(testClass);
     }
 
     /**
      * Click on the T-Shirts menu
      */
-    public MenuItemPage clickTShirtsItem(){
+    public CategoriesPage clickTShirtsItem(){
         testClass.waitTillElementIsVisible(tShirtsButton);
         tShirtsButton.click();
-        return new MenuItemPage(testClass);
+        return new CategoriesPage(testClass);
     }
 
 

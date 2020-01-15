@@ -167,6 +167,26 @@ public class BaseTest {
         }
     }
 
+    public void switchToWindow(String windowId) {
+        driver.switchTo().window(windowId);
+    }
+
+    public void switchToAnotherWindow(){
+        String currentHandle = driver.getWindowHandle();
+        for (String handle: driver.getWindowHandles()){
+            if(!currentHandle.equals(handle)){
+                switchToWindow(handle);
+            }
+        }
+    }
+
+    public void closeCurrentTabAndSwitchToAnother(){
+        closeCurrentTab();
+        for (String handle: driver.getWindowHandles()){
+            switchToWindow(handle);
+        }
+    }
+
     /**
      * Wait and waitTillElementIsVisibleAndClick on element
      * @param element
@@ -181,7 +201,6 @@ public class BaseTest {
      */
     protected void closeCurrentTab(){
         getDriver().close();
-        switchToHandle("Evening Dresses - My Store");
     }
 
 

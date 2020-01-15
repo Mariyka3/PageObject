@@ -82,11 +82,11 @@ abstract public class AbstractPage {
 
     /**
      * Click on evening dresses link
-     * @return MenuItemPage
+     * @return CategoriesPage
      */
-    public MenuItemPage clickOnEveningDressesLink(){
+    public CategoriesPage clickOnEveningDressesLink(){
         testClass.waitTillElementIsVisibleAndClick(eveningDressesItem);
-        return new MenuItemPage(testClass);
+        return new CategoriesPage(testClass);
     }
 
     /**

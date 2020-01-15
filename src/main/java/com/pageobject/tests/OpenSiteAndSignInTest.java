@@ -43,10 +43,6 @@ public class OpenSiteAndSignInTest extends BaseTest {
         //Verify return to login page
         loginPage.verifySignBtnIsDisplayed();
         log("Verified return to login page");
-
-        //Close site
-        closeSite();
-        log("Closed site");
     }
 
 
@@ -72,20 +68,16 @@ public class OpenSiteAndSignInTest extends BaseTest {
         log("Login");
 
         //waitTillElementIsVisibleAndClick on Dresses menu
-        MenuItemPage menuItemPage = myAccountPage.clickDressesItem();
+        CategoriesPage categoriesPage = myAccountPage.clickDressesItem();
         log("Clicked on Dresses menu");
 
         //waitTillElementIsVisibleAndClick on Summer dresses link
-        SummerDressesPage summerDressesPage = menuItemPage.clickSummerDressesLink();
+        categoriesPage.clickSummerDressesLink();
         log("Clicked on Summer dresses link");
 
         //compare specified quantity with actual products quantity quantity
-        summerDressesPage.verifyProductsQuantity();
+        categoriesPage.verifyProductsQuantity();
         log("Compared specified quantity with actual products quantity quantity");
-
-        //Close site
-        closeSite();
-        log("Closed site");
     }
 
     /**
@@ -110,11 +102,11 @@ public class OpenSiteAndSignInTest extends BaseTest {
         log("Login");
 
         //Click TShirts Item
-        MenuItemPage menuItemPage = myAccountPage.clickTShirtsItem();
+        CategoriesPage categoriesPage = myAccountPage.clickTShirtsItem();
         log("Clicked on TShirts Item and move to TSirts page");
 
         //Open product
-        ProductPage productPage = menuItemPage.clickOnProduct();
+        ProductPage productPage = categoriesPage.clickOnProduct();
         log("Opened product page");
 
         //Verify breadcrumbs
@@ -175,12 +167,12 @@ public class OpenSiteAndSignInTest extends BaseTest {
         log("hovered on Women category");
 
         // Open Evening Dresses link
-        MenuItemPage menuItemPage = myAccountPage.clickOnEveningDressesLink();
+        CategoriesPage categoriesPage = myAccountPage.clickOnEveningDressesLink();
         log("EveningDressesLink is opened");
 
         // Open product in another tab
-        ProductPage productPage = menuItemPage.openProductInNewTab();
-        switchToHandle("Printed Dress - My Store");
+        ProductPage productPage = categoriesPage.openProductInNewTab();
+        switchToAnotherWindow();
         log("Product page is opened in new tab");
 
         // Choose parameters for product
@@ -211,7 +203,7 @@ public class OpenSiteAndSignInTest extends BaseTest {
         log("Verified that cart is empty");
 
         //close current tab and return to main
-        closeCurrentTab();
+        closeCurrentTabAndSwitchToAnother();
         log("Current tab is closed, focus returned on main window");
 
         //Display cookies
